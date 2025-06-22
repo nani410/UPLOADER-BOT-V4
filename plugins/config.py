@@ -11,9 +11,9 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7834066816:AAEBlaRTubzJdoIFVJcBP8Yw1Drrb--mcPc")
+    API_ID = int(os.environ.get("API_ID", "7865687406" ))
+    API_HASH = os.environ.get("API_HASH", "8b9b8214d84305d5ba8042c93575ea84")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     MAX_FILE_SIZE = 2194304000
@@ -31,16 +31,20 @@ class Config(object):
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+UploadLinkToFileBot: UploadLinkToFile Bot@cluster0.1gybihh.mongodb.net/?
+
+retryWrites=true&w=majority")
+
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "7865687406"))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "7865687406"))
     SESSION_NAME = "UploaderXNTBot"
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "7865687406")
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "DedomekoBot")
     ADL_BOT_RQ = {}
 
     # Set False off else True
